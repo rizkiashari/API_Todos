@@ -15,9 +15,9 @@ router.get("/todos", getTodos);
 // Get Todo by Id
 router.get("/todo/:id", getTodoById);
 // Create Todo
-router.post("/todo", postTodo);
+router.post("/todo/post", postTodo);
 // Update Todo
-router.patch("/todo/:id", updateTodo);
+router.patch("/todo/update/:id", updateTodo);
 // Delete Todo
-router.delete("/todo/:id", deleteTodo);
+router.delete("/todo/delete/:id", deleteTodo);
 module.exports = router;

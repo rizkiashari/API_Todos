@@ -125,7 +125,6 @@ exports.deleteTodo = async (req, res) => {
       message: "Resources Delete Data Berhasil",
       data: {
         id,
-        name: todo.name,
       },
     });
   } catch (error) {
