@@ -8,7 +8,6 @@ exports.getTodos = async (req, res) => {
         exclude: ["updatedAt"],
       },
     });
-
     res.status(200).send({
       status: "success",
       message: "Resources Get Data Berhasil",
